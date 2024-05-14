@@ -3,7 +3,6 @@ import "../venues/venuesadmin.css";
 import VenueSearch from "components/venues/VenueSearch";
 import venuesService from "services/venuesService";
 import VenueAdminTableRow from "./VenueAdminTableRow";
-import debug from "sabio-debug";
 import Pagination from "rc-pagination";
 import locale from "rc-pagination/lib/locale/en_US";
 import toastr from "toastr";
