@@ -2,17 +2,9 @@
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Sabio.Models;
-using Sabio.Models.Domain.Venues;
-using Sabio.Models.Requests.VenueRequests;
-using Sabio.Services;
-using Sabio.Services.Interfaces;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
-using Stripe.Forwarding;
 using System;
 
-namespace Sabio.Web.Api.Controllers
+namespace ...###
 {
     [Route("api/venues")]
     [ApiController]
