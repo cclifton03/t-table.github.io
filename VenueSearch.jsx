@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import debug from "sabio-debug";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import venuesService from "services/venuesService";
