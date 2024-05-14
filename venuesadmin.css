@@ -1,0 +1,143 @@
+/* toastr */
+#toast-container > .toast-success {
+  background-color: #51a351 !important; /* Green for success */
+}
+#toast-container > .toast-error {
+  background-color: #bd362f !important; /* Red for error */
+}
+#toast-container > .toast-info {
+  background-color: #2f96b4 !important; /* Blue for info */
+}
+#toast-container > .toast-warning {
+  background-color: #f89406 !important; /* Orange for warning */
+}
+/* End of toastr */
+
+/* venue-admin-table */
+.venue-admin-table-container {
+  background: -webkit-linear-gradient(
+    top,
+    #681a63 0%,
+    #3c1c65 62%,
+    #312060 100%
+  );
+}
+/* End of venue-admin-table */
+
+/* VenueSearch */
+.venue-search-container input {
+  background-color: rgb(255, 255, 255, 0.3);
+
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.venue-search-container input[type="text"] {
+  color: #312060;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.venue-search-container input::placeholder {
+  color: #312060;
+  font-size: 15px;
+  text-align: start;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.venue-search-icon {
+  color: #fff;
+
+  cursor: pointer;
+}
+/* End of VenueSearch */
+
+/* venue-admin-table-pagination */
+
+.venue-admin-table-pagination li {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.venue-admin-table-pagination li a {
+  display: flex;
+  height: 100%;
+  width: 80%;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.5s;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 3px;
+  align-items: center;
+  justify-content: center;
+}
+
+.venue-admin-table-pagination .rc-pagination-item-active a {
+  color: white;
+  background-color: #312060;
+  border: 1px solid #ddd;
+}
+
+.venue-admin-table-pagination li a:hover:not(.active) {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.venue-admin-table-pagination .rc-pagination-prev .rc-pagination-item-link {
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="%23cccccc" d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L11.83 12z"/></svg>')
+    no-repeat center center;
+  border: none;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.venue-admin-table-pagination .rc-pagination-next .rc-pagination-item-link {
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="%23cccccc" d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L12.17 12z"/></svg>')
+    no-repeat center center;
+  border: none;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.venue-admin-table-pagination
+  .venue-admin-table-pagination
+  .rc-pagination-prev:not(.rc-pagination-disabled)
+  .rc-pagination-item-link {
+  opacity: 1;
+}
+
+.venue-admin-table-pagination
+  .rc-pagination-next:not(.rc-pagination-disabled)
+  .rc-pagination-item-link {
+  opacity: 1;
+}
+
+.venue-admin-table-pagination .rc-pagination-prev.rc-pagination-disabled,
+.venue-admin-table-pagination .rc-pagination-next.rc-pagination-disabled {
+  opacity: 1;
+  cursor: not-allowed;
+}
+
+.venue-admin-table-pagination
+  .rc-pagination-prev.rc-pagination-disabled
+  .rc-pagination-item-link,
+.venue-admin-table-pagination
+  .rc-pagination-next.rc-pagination-disabled
+  .rc-pagination-item-link {
+  pointer-events: none;
+  background: none;
+  border: none;
+}
+
+.venue-admin-table-pagination li::marker {
+  content: "";
+}
+/* End venue-admin-table-pagination */
